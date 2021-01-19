@@ -1,3 +1,7 @@
+body{
+  font-family: Ubuntu, sans-serif;
+}
+
 .bg {
   background-image: url(https://d335luupugsy2.cloudfront.net/cms/files/184485/1593530635/$hhqgwzgtpcv);
   /* background-position-x: 100%;
@@ -5,3 +9,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bgTwo {
+  background-image: linear-gradient(to bottom, rgba(74,74,74,0.74) 0%, rgba(74,74,74,0.74) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/184485/1593530635/$ukdehedcj6);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
