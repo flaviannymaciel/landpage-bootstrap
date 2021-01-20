@@ -1,10 +1,11 @@
 html, body {
   font-family: Ubuntu, sans-serif;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 .bg {
-  background-image: url(https://d335luupugsy2.cloudfront.net/cms/files/184485/1593530635/$hhqgwzgtpcv);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/184485/1593530635/$hhqgwzgtpcv);
   /* background-position-x: 100%;
   background-position-y: 100%; */
   background-repeat: no-repeat;
@@ -18,4 +19,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* 
+input {
+  background: transparent;
+  border: 0;
+} */
